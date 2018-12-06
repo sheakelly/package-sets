@@ -341,6 +341,12 @@
     "repo": "https://github.com/purescript/purescript-datetime.git",
     "version": "v4.1.0"
   },
+  "data-default": {
+    "dependencies": [
+    ],
+    "repo": "https://github.com/nkly/purescript-data-default.git",
+    "version": "0.1.0"
+  },
   "debug": {
     "dependencies": [
       "prelude"
@@ -460,6 +466,18 @@
     ],
     "repo": "https://github.com/purescript/purescript-exists.git",
     "version": "v4.0.0"
+  },
+  "express": {
+    "dependencies": [
+      "foreign",
+      "foreign-generic",
+      "node-http",
+      "data-default",
+      "test-unit",
+      "aff"
+    ],
+    "repo": "https://github.com/nkly/purescript-express.git",
+    "version": "v0.7.0"
   },
   "filterable": {
     "dependencies": [
