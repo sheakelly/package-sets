@@ -171,6 +171,17 @@
     "repo": "https://github.com/slamdata/purescript-avar.git",
     "version": "v3.0.0"
   },
+  "aws-lambda-express": {
+    "dependencies": [
+      "prelude",
+      "console",
+      "express",
+      "effect",
+      "exceptions"
+    ],
+    "repo": "https://github.com/lpil/purescript-aws-lambda-express.git",
+    "version": "v2.0.0"
+  },
   "behaviors": {
     "dependencies": [
       "effect",
